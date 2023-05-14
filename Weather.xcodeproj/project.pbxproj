@@ -42,7 +42,7 @@
 		352AD2542403FA5700FE672A = {
 			isa = PBXGroup;
 			children = (
-				352AD25F2403FA5700FE672A /* Sunny */,
+				352AD25F2403FA5700FE672A /* Weather */,
 				352AD25E2403FA5700FE672A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		352AD25F2403FA5700FE672A /* Sunny */ = {
+		352AD25F2403FA5700FE672A /* Weather */ = {
 			isa = PBXGroup;
 			children = (
 				352AD2792404DD0600FE672A /* Extensions */,
@@ -64,7 +64,7 @@
 				352AD275240404A600FE672A /* View Controllers */,
 				352AD2742404048C00FE672A /* Supporting files */,
 			);
-			path = Sunny;
+			path = Weather;
 			sourceTree = "<group>";
 		};
 		352AD2742404048C00FE672A /* Supporting files */ = {
