@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Sunny
+//  Weather
 //
-//  Created by Ivan Akulov on 24/02/2020.
-//  Copyright © 2020 Ivan Akulov. All rights reserved.
+//  Created by Yehor Krupiei on 14.05.2023.
+//  
 //
 
 import UIKit

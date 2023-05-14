@@ -14,6 +14,8 @@
 		352AD26A2403FA5800FE672A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 352AD2692403FA5800FE672A /* Assets.xcassets */; };
 		352AD26D2403FA5800FE672A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 352AD26B2403FA5800FE672A /* LaunchScreen.storyboard */; };
 		352AD27B2404DD6600FE672A /* ViewController+alertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AD27A2404DD6600FE672A /* ViewController+alertController.swift */; };
+		783D442F2A116FE100166968 /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783D442E2A116FE100166968 /* NetworkWeatherManager.swift */; };
+		783D44312A11711700166968 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783D44302A11711700166968 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		352AD26C2403FA5800FE672A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		352AD26E2403FA5800FE672A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		352AD27A2404DD6600FE672A /* ViewController+alertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+alertController.swift"; sourceTree = "<group>"; };
+		783D442E2A116FE100166968 /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
+		783D44302A11711700166968 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		352AD2742404048C00FE672A /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				783D44302A11711700166968 /* Constants.swift */,
 				352AD2602403FA5700FE672A /* AppDelegate.swift */,
 				352AD2622403FA5700FE672A /* SceneDelegate.swift */,
 				352AD2692403FA5800FE672A /* Assets.xcassets */,
@@ -89,6 +94,7 @@
 		352AD276240404B800FE672A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				783D442E2A116FE100166968 /* NetworkWeatherManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,8 +189,10 @@
 			files = (
 				352AD2652403FA5700FE672A /* ViewController.swift in Sources */,
 				352AD27B2404DD6600FE672A /* ViewController+alertController.swift in Sources */,
+				783D442F2A116FE100166968 /* NetworkWeatherManager.swift in Sources */,
 				352AD2612403FA5700FE672A /* AppDelegate.swift in Sources */,
 				352AD2632403FA5700FE672A /* SceneDelegate.swift in Sources */,
+				783D44312A11711700166968 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,13 +337,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5H969S6YFE;
-				INFOPLIST_FILE = "Sunny/Supporting files/Info.plist";
+				DEVELOPMENT_TEAM = AQPM435HZ6;
+				INFOPLIST_FILE = "Weather/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.Sunny;
+				PRODUCT_BUNDLE_IDENTIFIER = yehor.krupiei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -347,13 +355,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5H969S6YFE;
-				INFOPLIST_FILE = "Sunny/Supporting files/Info.plist";
+				DEVELOPMENT_TEAM = AQPM435HZ6;
+				INFOPLIST_FILE = "Weather/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.Sunny;
+				PRODUCT_BUNDLE_IDENTIFIER = yehor.krupiei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
