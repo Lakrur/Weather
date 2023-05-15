@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     lazy var locationManager: CLLocationManager = {
         let lm = CLLocationManager()
         lm.delegate = self
-        lm.desiredAccuracy = kCLLocationAccuracyKilometer
+        lm.desiredAccuracy = kCLLocationAccuracyThreeKilometers
         lm.requestWhenInUseAuthorization()
         return lm
     }()
